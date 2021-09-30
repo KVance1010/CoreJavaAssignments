@@ -1,4 +1,4 @@
-package CoreJavaAssignments;
+package AssignmentThree;
 
 public class AssignmentThree {
 	
@@ -32,5 +32,17 @@ public class AssignmentThree {
 		double testResults = totalMarks / 3.0;
 		System.out.println(name +" " +age + " " + gender + " " + section + " " + testResults);
 	}
-	   	   
+
+	public static void main(String[] args) {
+		AssignmentThree s1 = new AssignmentThree("John", 24, 'S', 'M', 80, 90, 100);
+		AssignmentThree s2 = new AssignmentThree("Mary", 30, 'S', 'F', 60, 40);
+		AssignmentThree s3 = new AssignmentThree ("Pete", 40, 'S', 'M', 70, 75);
+		AssignmentThree s4 = new AssignmentThree ("Ray ", 35, 'S', 'M', 100, 100, 100);
+		s1.display();
+		s2.display();
+		s3.display();
+		s4.display();
+
+	}
+
 }

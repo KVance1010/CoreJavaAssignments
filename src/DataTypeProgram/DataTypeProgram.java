@@ -1,9 +1,8 @@
-package CoreJavaAssignments;
+package DataTypeProgram;
 
-public class DataTypesProgram {
-    
-	public static void typeCastExample() {
-	
+public class DataTypeProgram {
+
+public static void main(String[] args) {
 	// -------TYPECAST BETWEEN INT AND LONG-------//
 		
 	int i = 100;
@@ -36,6 +35,5 @@ public class DataTypesProgram {
     
     float f = 1;    // automatic type conversion from long to float
     System.out.println ("float value " + f);
-    
 	}
 }

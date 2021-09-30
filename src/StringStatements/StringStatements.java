@@ -1,9 +1,9 @@
-package CoreJavaAssignments;
+package StringStatements;
 
-public class StringStatement {
-	
-	public void stringStatements(){
-	
+public class StringStatements {
+
+	public static void main(String[] args) {
+		
 		String t = "Delhi";   
 	    String o = "Mumbai"; 
 	    String k = "delhi";   
@@ -72,5 +72,7 @@ public class StringStatement {
 	    else {
 		    System.out.println("False");
 	    }	
+
 	}
+
 }
