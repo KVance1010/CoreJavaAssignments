@@ -1,6 +1,6 @@
 package CoreJavaAssignments;
 
-public class Student {
+public class AssignmentThree {
 	
 	String name;
 	int age;
@@ -10,7 +10,7 @@ public class Student {
 	int subjectTwo = 0;
 	int subjectThree = 0;
 	   
-	public Student(String name, int age, char section, char gender, int subjectOne, int subjectTwo, int subjectThree){
+	public AssignmentThree(String name, int age, char section, char gender, int subjectOne, int subjectTwo, int subjectThree){
 	    this.name = name;
 		this.age = age;
 		this.section = section;
@@ -18,7 +18,7 @@ public class Student {
 		this.subjectTwo = subjectTwo;
 		this.subjectThree = subjectThree;
 	}
-	public Student(String name, int age, char section, char gender, int subjectTwo, int subjectThree){
+	public AssignmentThree(String name, int age, char section, char gender, int subjectTwo, int subjectThree){
 	    this.name = name;
 		this.age = age;
 		this.section = section;
