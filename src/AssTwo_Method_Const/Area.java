@@ -6,6 +6,9 @@ public class Area {
      String name;
      
 	public Area() {
+		value =0;
+		name = "none";
+				
     	System.out.println("This is the default constructor.");
     }
 	
@@ -47,16 +50,15 @@ public class Area {
 	public static void area(int d1, int d2, int x) {
 		System.out.println("Area of your rhombus : " + ((d1 * d2)/ x));
 	}
-	
-	public static void main(String[] args) {
+
+    public static void main(String[] args) {
 		
 		Area xyz = new Area(12,12l);
-		Area xy = new Area(12);
+		Area xy = new Area(31);
 		Area x = new Area(1.2f);
 		area(8, 9);
 		area(2,2,2);
-		
-		
+				
 	}
-
 }
+
