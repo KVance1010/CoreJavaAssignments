@@ -3,6 +3,7 @@ package DataTypeProgram;
 public class DataTypeProgram {
 
 public static void main(String[] args) {
+	
 	// -------TYPECAST BETWEEN INT AND LONG-------//
 		
 	int i = 100;

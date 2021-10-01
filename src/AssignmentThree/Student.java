@@ -1,6 +1,6 @@
 package AssignmentThree;
 
-public class AssignmentThree {
+public class Student {
 	
 	String name;
 	int age;
@@ -10,7 +10,7 @@ public class AssignmentThree {
 	int subjectTwo = 0;
 	int subjectThree = 0;
 	   
-	public AssignmentThree(String name, int age, char section, char gender, int subjectOne, int subjectTwo, int subjectThree){
+	public Student(String name, int age, char section, char gender, int subjectOne, int subjectTwo, int subjectThree){
 	    this.name = name;
 		this.age = age;
 		this.section = section;
@@ -18,7 +18,7 @@ public class AssignmentThree {
 		this.subjectTwo = subjectTwo;
 		this.subjectThree = subjectThree;
 	}
-	public AssignmentThree(String name, int age, char section, char gender, int subjectTwo, int subjectThree){
+	public Student(String name, int age, char section, char gender, int subjectTwo, int subjectThree){
 	    this.name = name;
 		this.age = age;
 		this.section = section;
@@ -34,10 +34,10 @@ public class AssignmentThree {
 	}
 
 	public static void main(String[] args) {
-		AssignmentThree s1 = new AssignmentThree("John", 24, 'S', 'M', 80, 90, 100);
-		AssignmentThree s2 = new AssignmentThree("Mary", 30, 'S', 'F', 60, 40);
-		AssignmentThree s3 = new AssignmentThree ("Pete", 40, 'S', 'M', 70, 75);
-		AssignmentThree s4 = new AssignmentThree ("Ray ", 35, 'S', 'M', 100, 100, 100);
+		Student s1 = new Student("John", 24, 'S', 'M', 80, 90, 100);
+		Student s2 = new Student("Mary", 30, 'S', 'F', 60, 40);
+		Student s3 = new Student("Pete", 40, 'S', 'M', 70, 75);
+		Student s4 = new Student("Ray ", 35, 'S', 'M', 100, 100, 100);
 		s1.display();
 		s2.display();
 		s3.display();

@@ -2,7 +2,7 @@ package StringStatements;
 
 public class StringStatements {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {	
 		
 		String t = "Delhi";   
 	    String o = "Mumbai"; 
@@ -13,12 +13,6 @@ public class StringStatements {
 
 
 	    if (o == l) {
-		    System.out.println("True");
-	    }
-	    else {
-		    System.out.println("False");
-	    }
-	    if (p == y) {
 		    System.out.println("True");
 	    }
 	    else {
@@ -38,8 +32,19 @@ public class StringStatements {
 	    }
 	    if (k == y) {
 		    System.out.println("True");
+	    }
+	    else {
+		    System.out.println("False");
+	    }
+	    if (p == y) {
+		    System.out.println("True");
     	}
 	    else {
+		    System.out.println("False");
+		if (k == l) {
+		    System.out.println("True");
+	    }
+		else {
 		    System.out.println("False");
 	    }
 	    if (o.equals(l)) {
@@ -60,7 +65,7 @@ public class StringStatements {
 	    else {
 		    System.out.println("False");
 	    }
-	    if (k.equals(o)) {
+	    if (k.equals(y)) {
 		    System.out.println("True");
 	    }
 	    else {
@@ -71,8 +76,13 @@ public class StringStatements {
 	    }
 	    else {
 		    System.out.println("False");
-	    }	
-
-	}
-
+	    }
+	    if (k.equals(l)) {
+		    System.out.println("True");
+	    }
+	    else {
+		    System.out.println("False");
+	    }
+	    }
+    }
 }
