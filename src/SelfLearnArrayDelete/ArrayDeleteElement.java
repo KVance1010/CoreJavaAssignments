@@ -19,7 +19,7 @@ public class ArrayDeleteElement {
 			a[i] = scnr.nextInt();
 		}
 		
-		System.out.println("Enter the element you want to delete:");
+		System.out.println("Enter the element value you want to delete:");
 		x = scnr.nextInt();
 		
         for (int i = 0; i < n; i++) {

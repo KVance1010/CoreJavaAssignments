@@ -11,6 +11,11 @@ public class StringStatements {
 		String l = new String("delhi");
 		String p = new String("Hello");
 
+		if (o == y) {
+			System.out.println("True");
+		} else {
+			System.out.println("False");
+		}
 		if (o == l) {
 			System.out.println("True");
 		} else {
@@ -35,41 +40,47 @@ public class StringStatements {
 			System.out.println("True");
 		} else {
 			System.out.println("False");
-			if (k == l) {
-				System.out.println("True");
-			} else {
-				System.out.println("False");
-			}
-			if (o.equals(l)) {
-				System.out.println("True");
-			} else {
-				System.out.println("False");
-			}
-			if (y.equals(p)) {
-				System.out.println("True");
-			} else {
-				System.out.println("False");
-			}
-			if (t.equals(o)) {
-				System.out.println("True");
-			} else {
-				System.out.println("False");
-			}
-			if (k.equals(y)) {
-				System.out.println("True");
-			} else {
-				System.out.println("False");
-			}
-			if (p.equals(y)) {
-				System.out.println("True");
-			} else {
-				System.out.println("False");
-			}
-			if (k.equals(l)) {
-				System.out.println("True");
-			} else {
-				System.out.println("False");
-			}
+		}
+		if (k == l) {
+			System.out.println("True");
+		} else {
+			System.out.println("False");
+		}
+		if (o.equals(l)) {
+			System.out.println("True");
+		} else {
+			System.out.println("False");
+		}
+		if (y.equals(p)) {
+			System.out.println("True");
+		} else {
+			System.out.println("False");
+		}
+		if (t.equals(o)) {
+			System.out.println("True");
+		} else {
+			System.out.println("False");
+		}
+		if (k.equals(y)) {
+			System.out.println("True");
+		} else {
+			System.out.println("False");
+		}
+		if (p.equals(y)) {
+			System.out.println("True");
+		} else {
+			System.out.println("False");
+		}
+		if (k.equals(l)) {
+			System.out.println("True");
+		} else {
+			System.out.println("False");
+		}
+		if (o.equals(y)) {
+			System.out.println("True");
+		} else {
+			System.out.println("False");
 		}
 	}
+
 }
